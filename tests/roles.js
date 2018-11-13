@@ -9,8 +9,8 @@ export const testCafeRole = Role(`http://toolsqa.com/automation-practice-form/`,
 });
 
 
-export const vueRole = Role(`http://devexpress.github.io/testcafe/example/`, async t => {
-    await t.navigateTo('http://devexpress.github.io/testcafe/example/')
+export const vueRole = Role(`https://dbschwartz.github.io/vue-test`, async t => {
+    await t.navigateTo('https://dbschwartz.github.io/vue-test')
 }, {
     preserveUrl: true
 });
